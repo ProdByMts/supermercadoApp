@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado - Login</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; }
+        .login-box { background: white; padding: 20px 40px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; }
+        input { display: block; width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #28a745; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; width: 100%; }
+        button:hover { background: #218838; }
+        #mensaje { margin-top: 15px; color: red; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <h2>Ingreso al Sistema</h2>
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <p id="mensaje"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

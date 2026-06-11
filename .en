@@ -1,0 +1,6 @@
+PORT=3000
+DB_HOST=localhost
+DB_USER=superadmin
+DB_PASSWORD=prodbymts6169
+DB_NAME=db_supermercado
+
